@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=MAME
+Name=MAME-mwy
 GenericName=Emulator
 Comment=A multi-purpose emulation framework
-Exec=mame
+Exec=mame-mwy
 Type=Application
 Icon=org.mamedev.MAME
 Categories=Game;ArcadeGame;Emulator
