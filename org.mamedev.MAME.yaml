@@ -54,21 +54,21 @@ modules:
       - install -Dm 0644 mame256x256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
       - cp COPYING ${FLATPAK_DEST}/bin/
       - cp uismall.bdf ${FLATPAK_DEST}/bin/
-      - mkdir -p ${FLATPAK_DEST}/share/mame/
-      - cp -r artwork/ ${FLATPAK_DEST}/share/mame/
-      - cp -r bgfx/ ${FLATPAK_DEST}/share/mame/
-      - cp -r ctrlr/ ${FLATPAK_DEST}/share/mame/
-      - mkdir -p ${FLATPAK_DEST}/share/mame/docs/
-      - cp -r docs/legal/ ${FLATPAK_DEST}/share/mame/docs/
-      - cp -r docs/man/ ${FLATPAK_DEST}/share/mame/docs
-      - cp -r hash/ ${FLATPAK_DEST}/share/mame/
-      - cp -r hlsl/ ${FLATPAK_DEST}/share/mame/
-      - cp -r ini/ ${FLATPAK_DEST}/share/mame/
-      - install -Dm 0644 mame.ini ${FLATPAK_DEST}/share/mame/ini/mame.ini
-      - cp -r language/ ${FLATPAK_DEST}/share/mame/
-      - cp -r plugins/ ${FLATPAK_DEST}/share/mame/
-      - cp -r roms/ ${FLATPAK_DEST}/share/mame/
-      - cp -r samples/ ${FLATPAK_DEST}/share/mame/
+      - mkdir -p ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r artwork/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r bgfx/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r ctrlr/ ${FLATPAK_DEST}/share/mame-mwy/
+      - mkdir -p ${FLATPAK_DEST}/share/mame-mwy/docs/
+      - cp -r docs/legal/ ${FLATPAK_DEST}/share/mame-mwy/docs/
+      - cp -r docs/man/ ${FLATPAK_DEST}/share/mame-mwy/docs
+      - cp -r hash/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r hlsl/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r ini/ ${FLATPAK_DEST}/share/mame-mwy/
+      - install -Dm 0644 mame.ini ${FLATPAK_DEST}/share/mame-mwy/ini/mame.ini
+      - cp -r language/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r plugins/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r roms/ ${FLATPAK_DEST}/share/mame-mwy/
+      - cp -r samples/ ${FLATPAK_DEST}/share/mame-mwy/
     sources:
       - type: archive
         url: https://github.com/Zoltan45/MAME-mwyu/archive/refs/tags/MAME-mwy-0.278-mwy.tar.gz
