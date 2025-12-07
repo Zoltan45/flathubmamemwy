@@ -71,7 +71,7 @@ modules:
       - cp -r samples/ ${FLATPAK_DEST}/share/mame-mwy/
     sources:
       - type: archive
-        url: https://github.com/Zoltan45/MAME-mwy/tags/MAME-mwy-0.278-mwy.tar.gz
+        url: https://github.com/Zoltan45/MAME-mwy/archive/refs/tags/0.278-mwy.tar.gz
         sha256: 586f1a7851edd2ddcd3407a2d15ae24b18e1affaddb9ef2e1172284d0ca7ec02
       - type: file
         path: mame16x16.png
