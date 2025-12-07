@@ -4,5 +4,5 @@ GenericName=Emulator
 Comment=A multi-purpose emulation framework
 Exec=mame-mwy
 Type=Application
-Icon=org.mamedev.MAME
+Icon=org.mamedev.MAME-mwy
 Categories=Game;ArcadeGame;Emulator
