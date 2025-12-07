@@ -1,4 +1,4 @@
-id: org.mamedev.MAME
+id: org.mamedev.MAME-mwy
 runtime: org.kde.Platform
 runtime-version: '6.9'
 sdk: org.kde.Sdk
