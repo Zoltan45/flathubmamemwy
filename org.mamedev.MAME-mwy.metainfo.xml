@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.mamedev.MAME</id>
+  <id>org.mamedev.MAME-mwy</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <name>MAME</name>
@@ -26,7 +26,7 @@
     <category>Emulator</category>
   </categories>
   <url type="homepage">https://www.mamedev.org</url>
-  <launchable type="desktop-id">org.mamedev.MAME.desktop</launchable>
+  <launchable type="desktop-id">org.mamedev.MAME-mwy.desktop</launchable>
   <releases>
     <release version="0.278-mwy" date="2025-7-3"/>
   </releases>
