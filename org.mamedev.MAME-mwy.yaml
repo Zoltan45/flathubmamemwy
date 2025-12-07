@@ -88,9 +88,9 @@ modules:
       - type: file
         path: mame256x256.png
       - type: file
-        path: org.mamedev.MAME.desktop
+        path: org.mamedev.MAME-mwy.desktop
       - type: file
-        path: org.mamedev.MAME.metainfo.xml
+        path: org.mamedev.MAME-mwy.metainfo.xml
       - type: file
         path: mame.ini
       - type: patch
